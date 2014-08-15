@@ -109,11 +109,8 @@ var KeyboardLayouts = function(app) {
   layouts.set('es-Americas', 'Español (Latinoamérica)');
   layouts.set('es', 'Español');
   layouts.set('ff', 'Pulaar-Fulfulde');
-  layouts.set('fr-Dvorak-bepo', 'Bépo')
-  layouts.set('fr', 'Françai');
-  layouts.set('ga', 'Gaeilge');
-  layouts.set('gd', 'Gàidhlig');
-  layouts.set('gv', 'Gaelg');
+  layouts.set('fr-Dvorak-bepo', 'Bépo');
+  layouts.set('fr', 'Français');
   layouts.set('he', 'עִבְרִית');
   layouts.set('hi', 'हिन्दी');
   layouts.set('hr', 'Hrvatski');
