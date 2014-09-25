@@ -13,7 +13,12 @@ window.onmessage = function(e) {
       var layout = JSON.parse(e.data.layout);
 
       layout.autoCorrectLanguage = 'en';
-      
+      Object.keys(layout.alt).forEach(function(k) {
+        if (typeof layout.alt[k] === 'string') {
+          layout.alt[k] = layout.alt[k].split('');
+        }
+      });
+
       console.log('layout is', layout);
 
       LayoutLoader.prototype.getLayoutAsync = function() {
